@@ -1,0 +1,44 @@
+.droplet {
+  position: absolute;
+  top: -20px;
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  background: #5e4b3c;
+  animation: drop 4s linear forwards;
+  z-index: 3;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 345px;
+  top: 50%;
+  width: 40%;
+  height: 10px;
+  background: #3ac;
+  font-size: 10px;
+  color: white;
+  z-index: 2;
+}
+
+@keyframes drop {
+  0% {
+    top: 0px;
+    background: #5e4b3c;
+    opacity: 1;
+  }
+  50% {
+    top: 50%;
+    background: #5e4b3c;
+  }
+  51% {
+    background: #a8e6ff;
+  }
+  100% {
+    top: 100%;
+    background: #a8e6ff;
+    opacity: 0.6;
+  }
+}
