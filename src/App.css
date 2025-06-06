@@ -8,16 +8,48 @@ h1 {
   justify-content: center;
   color: #75dbf0;
   font-family: "Watery";
+  font-size: 60px;
+  margin: 20px;
 }
 
 p {
   text-align: center;
   color: white;
   width: 100%;
+  margin-bottom: 30px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.wtr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+button {
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  border: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #75dbf0;
+  border-radius: 12px;
+  color: #252a2b;
+  font-family: "Watery";
+  font-size: 35px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .filter {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }

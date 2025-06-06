@@ -23,4 +23,5 @@ const Filtered: React.FC<FilteredProps> = ({ water }) => {
     </div>
   );
 };
+
 export default Filtered;

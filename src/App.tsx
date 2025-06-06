@@ -15,21 +15,34 @@ function App() {
   };
 
   const [water, setWater] = useState<string[]>([
+    "salt",
     "chlorine",
     "dirt",
-    "oil",
-    "debris",
+    "calcite",
+    "uranium",
+    "arsenic",
+    "pharmaceuticals",
+    "lead",
   ]);
 
   let contaminates: string[] = ["dirt", "oil", "debris"];
 
   return (
-    <div className="filter">
-      <h1>Water Filter</h1>
-      {/* <Polluted water={water} /> */}
-      {waterImage ? <Filtered water={water} /> : <Polluted water={water} />}
-      <button onClick={handleOnClick}></button>
-    </div>
+    <>
+      <div>
+        <h1>Water Filter</h1>
+      </div>
+      <section className="filter">
+        {/* <Polluted water={water} /> */}
+        <div className="wtr">
+          <p>Current contaminates: </p>
+          {waterImage ? <Filtered water={water} /> : <Polluted water={water} />}
+        </div>
+        <div className="button">
+          <button onClick={handleOnClick}>Click to Filter!</button>
+        </div>
+      </section>
+    </>
   );
 }
 
