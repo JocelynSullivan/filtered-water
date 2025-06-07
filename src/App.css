@@ -26,6 +26,7 @@ p {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 80px;
+  margin: 20px;
 }
 
 button {

@@ -9,11 +9,11 @@ const Filtered: React.FC<FilteredProps> = ({ water }) => {
     <div
       style={{
         width: "40%",
-        height: "300px",
+        height: "280px",
         margin: "auto",
       }}
     >
-      <p>{water.join(" ")}</p>
+      <p>{water.join(", ")}</p>
       <LiquidChrome
         baseColor={[0.38, 0.46, 0.5]}
         speed={0.63}

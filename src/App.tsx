@@ -25,7 +25,17 @@ function App() {
     "lead",
   ]);
 
-  let contaminates: string[] = ["dirt", "oil", "debris"];
+  let contaminates: string[] = [
+    "dirt",
+    "oil",
+    "debris",
+    "salt",
+    "calcite",
+    "uranium",
+    "pharmaceuticals",
+    "lead",
+    "arsenic",
+  ];
 
   return (
     <>

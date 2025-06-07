@@ -9,11 +9,11 @@ const Polluted: React.FC<PollutedProps> = ({ water }) => {
     <div
       style={{
         width: "40%",
-        height: "300px",
+        height: "280px",
         margin: "auto",
       }}
     >
-      <p>{water.join(" ")}</p>
+      <p>{water.join(", ")}</p>
       <LiquidChrome
         baseColor={[0.31, 0.24, 0.18]}
         speed={0.01}
